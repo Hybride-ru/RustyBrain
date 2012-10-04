@@ -79,8 +79,7 @@ void RBRmdClient::slotRecive(char *inBuf, int inSize, RNSocket inSock)
 void RBRmdClient::slotCapture()
 {
     QPixmap grabPix = QPixmap::grabWindow(QApplication::desktop()->winId());
-//    grabPix = grabPix.scaled( 320, 240,
-//                    Qt::KeepAspectRatio );
+
     QByteArray ba;
     QBuffer buffer(&ba);
     buffer.open(QIODevice::ReadWrite);
