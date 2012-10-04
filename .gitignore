@@ -10,3 +10,9 @@
 *.lai
 *.la
 *.a
+
+# Other
+.DS_Store
+*pro.user
+Client-build*
+Server-build*
